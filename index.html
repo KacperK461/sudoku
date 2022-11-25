@@ -17,7 +17,17 @@
 
     <title>Sudoku</title>
   </head>
-  <body class="bg-image d-flex align-items-center">
-    <main class="container bg-primary rounder shadow-lg"></main>
+  <body class="bg-image d-flex align-items-center justify-content-center">
+    <main class="bg-primary rounder shadow-lg d-flex flex-column py-4 px-5"></main>
+
+    <template id="home">
+      <h1 class="text-secondary mb-4 text-center">Sudoku</h1>
+
+      <button type="button" class="btn btn-secondary text-primary fs-3">Easy</button>
+      <button type="button" class="btn btn-warning text-primary fs-3 my-3">Medium</button>
+      <button type="button" class="btn btn-danger text-primary fs-3">Hard</button>
+    </template>
+
+    <template id="game"> </template>
   </body>
 </html>

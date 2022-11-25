@@ -1,4 +1,9 @@
 $primary: #272956;
+$secondary: #6363b7;
+$warning: #ffb08f;
+$danger: lighten(#c44349, 1);
+
+$spacer: 2rem;
 
 @import '../bootstrap/scss/bootstrap';
 
@@ -8,7 +13,7 @@ $primary: #272956;
 }
 
 .container {
-  height: 50px;
+  // height: 50px;
   // -webkit-box-shadow: 0px 0px 37px -17px rgb(0 0 0);
   // -moz-box-shadow: 0px 0px 37px -17px rgb(0 0 0);
   // box-shadow: 0px 0px 37px -17px rgb(0 0 0);
