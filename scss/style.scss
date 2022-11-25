@@ -1,0 +1,15 @@
+$primary: #272956;
+
+@import '../bootstrap/scss/bootstrap';
+
+.bg-image {
+  background-image: url('../img/background.png');
+  min-height: 100vh;
+}
+
+.container {
+  height: 50px;
+  // -webkit-box-shadow: 0px 0px 37px -17px rgb(0 0 0);
+  // -moz-box-shadow: 0px 0px 37px -17px rgb(0 0 0);
+  // box-shadow: 0px 0px 37px -17px rgb(0 0 0);
+}
